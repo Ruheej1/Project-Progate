@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ruhee Jain| About </title>
+	<meta charset="utf-8">
+	<link href="about.css" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<ul id="nav">
+		<li> <a href="Home.html"> HOME </a> </li>
+		<li> <a href="About.html"> ABOUT </a> </li>
+		<li> <a href="skills.html"> SKILLS </a> </li>
+		<li> <a href="contact.html"> CONTACT </a> </li>
+	</ul>
+
+	<div class="personal">
+		<h3 style="margin: 10px;"> Something About Me!</h3><br>
+		<p style="font-size: 25px; margin: 10px" > Alma Mater : DL DAV MODEL SCHOOL PITAMPURA,NEW DELHI</p>
+		<p style="font-size: 25px; margin: 10px"> Email: ruheej1@gmail.com </p>
+		<p style="font-size: 25px; margin: 10px"> Age : 20 yrs</p>
+		<p style="font-size: 25px; margin: 10px"> Birth date : 16-01-2001</p>
+		<p style="font-size: 25px; margin: 10px"> Languages Known : English,Hindi</p>
+	</div>
+
+</div>
+</body>
+</html>
