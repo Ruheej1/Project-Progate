@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css?family=ABeeZee');
+
+body {
+	background: url("https://appsmaventech.com/images/blog/The-Evolution-Of-Web-Development-Via-Machine-Learning.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+}
+
+
+#container {
+	width: 1000px; 
+	margin: 0 auto;	
+}
+
+ul#nav {
+	width: 960px;
+	list-style: none; 
+	overflow: hidden;
+    margin: 100px auto 25px auto;
+}
+
+ul#nav li {
+		width: 126px;
+		height: 40px; 
+		float: left; 
+		padding: 13px 0 0 0;
+		background:#000000 ;
+		font-weight: bold;
+		text-align: center; 
+		text-transform: uppercase;
+		margin: 0 60px 0 0;
+	}
+
+ul#nav li a {
+			color: #FFFFFF;
+		    text-decoration: none;
+		}
+			
+ul#nav li a:hover {
+				color: #a12121;
+			}
+
+
+.header  {
+		font: 38px;
+		height: 100px; 
+		padding: 47px 0 0 57px;
+		width: 1000px;
+		color: #FFFFFF; 
+		letter-spacing: 2px;
+		margin: 20px 0 20px 0;
+		text-shadow: 0px 3px 3px #494949;
+		font-family: "ABeeZee";
+	}
+
+.content {
+	padding: 57px 69px 50px 69px; 
+	overflow: hidden;
+}	
+
+.content h2{
+	font-size:38px;
+	height: 60px; 
+	color: #FFFFFF; 
+	margin: 20px 0 20px 0;
+	text-shadow: 0px 3px 3px #494949;
+	font-family: "ABeeZee";
+
+}
+
+.content p{
+	margin: 0 0 30px 0;
+	font-size: 25px ;
+	font-family: "ABeeZee";
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+
+
