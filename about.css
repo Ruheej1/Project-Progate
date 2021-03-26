@@ -1,28 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Ruhee Jain| About </title>
-	<meta charset="utf-8">
-	<link href="about.css" rel="stylesheet">
-</head>
-<body>
-	<div id="container">
-		<ul id="nav">
-		<li> <a href="Home.html"> HOME </a> </li>
-		<li> <a href="About.html"> ABOUT </a> </li>
-		<li> <a href="skills.html"> SKILLS </a> </li>
-		<li> <a href="contact.html"> CONTACT </a> </li>
-	</ul>
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
-	<div class="personal">
-		<h3 style="margin: 10px;"> Something About Me!</h3><br>
-		<p style="font-size: 25px; margin: 10px" > Alma Mater : DL DAV MODEL SCHOOL PITAMPURA,NEW DELHI</p>
-		<p style="font-size: 25px; margin: 10px"> Email: ruheej1@gmail.com </p>
-		<p style="font-size: 25px; margin: 10px"> Age : 20 yrs</p>
-		<p style="font-size: 25px; margin: 10px"> Birth date : 16-01-2001</p>
-		<p style="font-size: 25px; margin: 10px"> Languages Known : English,Hindi</p>
-	</div>
+body {
+	background: url("https://i.pinimg.com/736x/20/6f/80/206f805e405309a7225b5e2683ffed19.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-</div>
-</body>
-</html>
+
+#container {
+	width: 1000px; 
+	margin: 0 auto;	
+}
+
+ul#nav {
+	width: 960px;
+	list-style: none; 
+	overflow: hidden;
+    margin: 100px auto 25px auto;
+}
+
+ul#nav li {
+		width: 126px;
+		height: 40px; 
+		float: left; 
+		padding: 13px 0 0 0;
+		background:#000000 ;
+		font-weight: bold;
+		text-align: center; 
+		text-transform: uppercase;
+		margin: 0 60px 0 0;
+	}
+
+ul#nav li a {
+			color: #FFFFFF;
+		    text-decoration: none;
+		}
+			
+ul#nav li a:hover {
+				color: #a12121;
+			}
+
+
+.personal{
+	font-family: "ABeeZee";
+	color: #FFFFFF;
+	height: 400px;
+	width: 700px;
+	border: 4px solid #FFFFFF;
+	padding: 4px 4px 4px 4px;
+	margin-top: 150px;
+	margin-left: 100px;
+	align-content: center;
+	justify-content: center;
+}
+
